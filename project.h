@@ -1,0 +1,37 @@
+float add(float);
+float subs(float);
+float mul(float);
+float Div(float);
+float sqroot(float);
+float curoot(float);
+float root(float);
+float square(float);
+float cube(float);
+float power(float);
+float powten(float);
+float fact(float);
+float nPr(float);
+float nCr(float);
+float Log(int);
+float resin(float);
+float recos(float);
+float retan(float);
+float Logb(float);
+void Bin(int);
+void Hex(int);
+void Oct(int);
+void compute(int[100][100],int,int);
+void compute1(int[100][100],int,int);
+void compute2(int[100][100],int,int);
+void Start();
+double integrate(double,double,unsigned long int,int);
+typedef struct polynomial 
+	{
+    int order;
+    int *coefficient;
+	} Polynomial;
+void r_print_differential_poly(Polynomial *);
+void init_poly(Polynomial *);
+void print_poly(Polynomial *);
+void drop_poly(Polynomial *);
+void differential_poly(Polynomial *);
